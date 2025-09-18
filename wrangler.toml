@@ -23,5 +23,8 @@ crons = ["0 8 * * *"]
 [vars]
 ENVIRONMENT = "production"
 
+[observability.logs]
+enabled = true
+
 [placement]
 mode = "smart"
